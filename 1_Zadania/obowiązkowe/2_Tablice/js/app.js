@@ -18,3 +18,16 @@ function distFromAverage(tab) {
 }
 
 distFromAverage([1, 2, 3, 4, 5, 6, 7]);
+
+// zadanie 1
+function mojeOwoce() {
+    let owoce = ["jabłko", "gruszka", "banan"];
+    console.log(owoce[0]);
+    console.log(owoce[owoce.length - 1]);
+
+    for (i = 0; i < owoce.length; i++) {
+        console.log(owoce[i]);
+    }
+}
+
+mojeOwoce();
