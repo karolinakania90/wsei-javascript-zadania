@@ -31,3 +31,34 @@ function mojeOwoce() {
 }
 
 mojeOwoce();
+
+// zadanie 3
+
+function printTable(tab) {
+    for (i = 0; i < tab.length; i++) {
+        console.log(tab[i]);
+    }
+}
+printTable(["fasola", "por", "marchew"]);
+
+// zadanie 4
+
+function multiply(tab) {
+    let result = 1;
+    for (i = 0; i < tab.length; i++) {
+        result = result * tab[i];
+    }
+    return result;
+}
+console.log(multiply([1, 2, 3, 4]));
+
+
+// zadanie 6
+
+function sortArray(tab) {
+    let tablica = tab;
+    tablica.sort((a, b) => a - b);
+    return tablica;
+}
+
+console.log(sortArray([145, 11, 3, 64, 4, 6, 10]));
