@@ -81,3 +81,4 @@ if (spoon.isExist) {
 } else {
     console.log("łyżka nie istnieje");
 }
+
