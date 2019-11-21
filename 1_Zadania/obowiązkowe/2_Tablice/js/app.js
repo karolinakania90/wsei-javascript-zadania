@@ -62,3 +62,24 @@ function sortArray(tab) {
 }
 
 console.log(sortArray([145, 11, 3, 64, 4, 6, 10]));
+
+// zadanie 7
+
+function addArrays(tab1, tab2) {
+    tab3 = [];
+
+    for (i = 0; i < tab1.length; i++) {
+        tab3.push(tab1[i]);
+    }
+
+    for (i = 0; i < tab2.length; i++) {
+        if (tab3[i] != undefined) {
+            tab3[i] += tab2[i];
+        } else {
+            tab3.push(tab2[i]);
+        }
+    }
+    return tab3;
+}
+
+console.log(addArrays([2, 3, 1, 5, 3, 5], [3, 1, 76, 1]));
