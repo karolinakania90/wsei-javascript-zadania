@@ -28,3 +28,24 @@ car.getInspections = function() {
 
 car.addInspection("22-11-2020");
 console.log(car.getInspections());
+
+// zadanie 3
+
+var stairs = {
+    step: 0,
+    up: function() {
+        this.step++;
+    },
+    down: function() {
+        this.step--;
+    },
+    printStep: function() {
+        console.log(this.step);
+    }
+}
+
+stairs.up();
+stairs.up();
+stairs.up();
+stairs.down();
+stairs.printStep();
