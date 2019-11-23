@@ -67,6 +67,9 @@ politechnika.printData();
 var wsei = new University("WSEI", 9000);
 wsei.printData();
 console.log(wsei);
+
+// rozszerzanie obiektu
+
 University.prototype.addStudent = function(number) {
     this.studentNumber += number;
 };
