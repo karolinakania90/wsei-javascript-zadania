@@ -79,3 +79,10 @@ politechnika.printData();
 wsei.addStudent(500);
 wsei.printData();
 console.log(wsei);
+
+
+function printHello(parameter1, parameter2) {
+
+    console.log("hello");
+    return "hello";
+}
