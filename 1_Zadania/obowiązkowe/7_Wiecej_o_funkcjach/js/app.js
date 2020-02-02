@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//deklaracja funkcji `jeden()` 
 function jeden() {
 
-    //Twoj komentarz ...
+    //deklaracja zmiennej `zmienna1` - dostępna w obu funkcjach - funkcja `jeden()` jest nadrzędna do funkcji `dwa()`
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //deklaracja funkcji `dwa()` - funkcja jest zagnieżdżona w funkcji `jeden()` - wszystkie zmienne utworzone w funckji `jeden()` będą dostępne w obu funkcjach
     function dwa() {
 
-        //Twoj komentarz ...
+        //wywołanie w konsoli zmiennej `zmienna1` - dostępna ponieważ została zainicjowana w funkcji nadrzędnej
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //deklaracja zmiennej `zmienna2` - dostępna tylko w funkcji zagnieżdżonej `dwa()`
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //wywołanie funkcji zagnieżdżonej `dwa()`
     dwa();
 
-    //Twoj komentarz ...
+    //wywołanie w konsoli zmiennej `zmienna2` - niedostępna ponieważ zainicjowana w funkcji zagnieżdżonej `dwa()`
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
-jeden()
+//wywołanie funkcji zagnieżdżonej `jeden()`
+jeden();
