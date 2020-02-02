@@ -5,6 +5,7 @@
 Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 
 ## Jak zacząć?
+
 1. Stwórz [*fork*](https://guides.github.com/activities/forking/) repozytorium z zadaniami.
 2. Sklonuj repozytorium na swój komputer. Użyj do tego komendy `git clone adres_repozytorium`
 Adres repozytorium możesz znaleźć na stronie repozytorium po naciśnięciu w guzik "Clone or download".
