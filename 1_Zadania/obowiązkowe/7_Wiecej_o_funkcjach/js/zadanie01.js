@@ -5,21 +5,21 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+//deklaracja funkcji 'sortArray()'
 function sortArray() {
 
-    //Twoj komentarz ...
+    //deklaracja tablicy 'points'
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    //funkcja 'sort()' sortuje tablice 'points'
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        //funkcja odejmuje 'a' od 'b'
         return a - b;
     });
 
-    //Twoj komentarz ...
+    //funkcja zwraca posortowaną tablice 'points'
     return points;
 }
 
-//Twoj komentarz ...
+//wywołanie funkcji 'sortArray()'
 sortArray();
